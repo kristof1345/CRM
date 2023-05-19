@@ -5,6 +5,7 @@ import (
 
 	"github.com/gofiber/fiber"
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/kristof1345/CRM/database"
 	"github.com/kristof1345/CRM/lead"
 )
